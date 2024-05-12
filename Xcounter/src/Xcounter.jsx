@@ -7,7 +7,7 @@ export default function Xcounter() {
   return (
     <div styles='display:flex; background-color: blue'>
       <h1>Counter App</h1>
-      <h1>Count: {count}</h1>
+      <h3>Count: {count}</h3>
       <button className={styles.btn} onClick={() => setCount(count + 1)}>
         Increment
       </button>
